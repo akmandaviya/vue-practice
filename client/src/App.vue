@@ -1,11 +1,13 @@
 <script setup>
+import DataDisplay from './components/DataDisplay.vue';
 import TodoList from './components/TodoList.vue';
 
 </script>
 
 <template>
   <div>
-    <TodoList/>
+    <!-- <TodoList/> -->
+    <DataDisplay/>
   </div>
 </template>
 

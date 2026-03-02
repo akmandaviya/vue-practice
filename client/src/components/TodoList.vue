@@ -9,9 +9,6 @@
                 <button @click="removeTodo(item.id)">Remove</button>
             </li>
         </ul>
-
-
-        <h1> Data in Table from API</h1>
     </div>
 </template>
 <script setup>
