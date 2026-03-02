@@ -1,4 +1,5 @@
 <script setup>
+import Concepts from './components/concepts.vue';
 import DataDisplay from './components/DataDisplay.vue';
 import TodoList from './components/TodoList.vue';
 
@@ -7,7 +8,8 @@ import TodoList from './components/TodoList.vue';
 <template>
   <div>
     <!-- <TodoList/> -->
-    <DataDisplay/>
+    <!-- <DataDisplay/> -->
+    <Concepts/>
   </div>
 </template>
 
