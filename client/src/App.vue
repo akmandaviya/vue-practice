@@ -1,16 +1,9 @@
 <script setup>
-import Concepts from './components/concepts.vue';
-import DataDisplay from './components/DataDisplay.vue';
-import TodoList from './components/TodoList.vue';
 
 </script>
 
 <template>
-  <div>
-    <!-- <TodoList/> -->
-    <!-- <DataDisplay/> -->
-    <Concepts/>
-  </div>
+  <RouterView/>
 </template>
 
 <style scoped>
